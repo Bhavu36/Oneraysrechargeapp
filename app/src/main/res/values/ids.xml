@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="wsignup_type" type="id">spinner</item>
+    <item name="wsi_workfunction" type="id">Spinner</item>
+    <item name="wsi_registerasworker" type="id">TextView</item>
+    <item name="wsi_save" type="id">Button</item>
+    <item name="confirmpassword" type="id">confirm</item>
+    <item name="drawer_layout" type="id">xml</item>
+</resources>

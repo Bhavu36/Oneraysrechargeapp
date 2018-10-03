@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Format for stroing the card details in order is:
+    Account : Considered account number as 11 digit(similar to sbi)
+    Mobile
+    Balance
+    Card Number
+    Expiry
+    CVV-->
+
+    <string-array name="card11">
+        <item>7506112345</item>
+        <item>1000</item>
+        <item>4591123443215671</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card22">
+        <item>7506123456</item>
+        <item>1000</item>
+        <item>4591234554323452</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card33">
+        <item>7506134567</item>
+        <item>1000</item>
+        <item>4591345665434563</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card44">
+        <item>7506145678</item>
+        <item>1000</item>
+        <item>4591456776545674</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card55">
+        <item>7506156789</item>
+        <item>1000</item>
+        <item>4591567887656785</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <array name="cardArray1">
+        <item>@array/card11</item>
+        <item>@array/card22</item>
+        <item>@array/card33</item>
+        <item>@array/card44</item>
+        <item>@array/card55</item>
+    </array>
+</resources>

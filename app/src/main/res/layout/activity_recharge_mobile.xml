@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RechargeMobile">
+
+    <TextView
+        android:id="@+id/TVHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="ENTER DETAILS"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Enter Mobile No"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/MobileNo"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boxlike_effect"
+        android:hint="8985845878"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:paddingLeft="15dp"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/TVAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Enter Amount"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Amount"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boxlike_effect"
+        android:hint="20"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:paddingLeft="15dp"
+        android:layout_weight="0.04" />
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/radioButtonGroup"
+        android:layout_margin="20dp"
+        android:layout_below="@id/Amount"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:text="Prepaid"
+            android:id="@+id/prepaidRadioButton"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/postpaidRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onRadioButtonClicked"
+            android:text="Postpaid"
+            android:textSize="22sp" />
+
+
+    </RadioGroup>
+    <Spinner
+        android:id="@+id/spinnerCompanyName"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/radioButtonGroup"
+        android:layout_gravity="center"
+        android:background="@drawable/boxlike_effect"
+        android:layout_weight="0.02" />
+
+    <Spinner
+        android:layout_height="40dp"
+        android:layout_width="200dp"
+        android:id="@+id/spinnerStateName"
+        android:layout_gravity="center"
+        android:layout_below="@id/radioButtonGroup"
+        android:background="@drawable/boxlike_effect"
+        android:layout_toRightOf="@id/spinnerCompanyName"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:text="Recharge"
+        android:id="@+id/buttonRecharge"
+        android:layout_margin="20dp"
+        android:layout_below="@id/spinnerCompanyName"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"></Button>
+
+
+
+</LinearLayout>

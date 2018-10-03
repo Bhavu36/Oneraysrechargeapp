@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">OMG,recharge app</string>
+    <string name="mobile_text1">Enter Mobile No</string>
+    <string name="mobile_radio1">Prepaid</string>
+    <string name="mobile_radio2">Postpaid</string>
+    <string name="mobile_buttonDone">Done</string>
+    <string name="mobile2_amount">Enter Amount</string>
+    <string name="mobile2_payButton">PAY</string>
+
+    <string name="card_select">Select Your Debit/Credit Card</string>
+    <string name="title">title</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">35be1302d0f03ddbb16102e547fa1f25</string>
+
+
+    // if your Facebook App ID is 1234567, you should use ak1234567
+    <string name="ak_login_protocol_scheme">ak35be1302d0f03ddbb16102e547fa1f25</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="loginContent">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="homeTitle">Home</string>
+    <string name="profileTitle">Profile</string>
+    <string name="admin_requestTitle">Admin Request</string>
+    <string name="terms_and_conditionsTitle">Terms and Conditions</string>
+    <string name="privacy_policyTitle">Privacy Policy</string>
+    <string name="contact_usTitle">Contact Us</string>
+    <string name="about_usTitle">About Us</string>
+    <string name="share_referral_codeTitle">Share Referral Code</string>
+    <string name="setting_Title">Setting</string>
+    <string name="add_admin_request_Title">Add Request</string>
+    <string name="exit">Exit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="copyRightsStr">&#169; Copyrights Aadhavan Associates, Pvt ltd</string>
+
+    <array name="menuArray">
+        <item>Prepaid \n Recharge</item>
+        <!-- <item>Bus \n Booking</item>
+        <item>Movie \n Ticket</item>-->
+        <item>DTH \n Recharge</item>
+        <item>Data card \n Recharge</item>
+        <item>Postpaid \n Recharge</item>
+        <item>Electricity \n Bill</item>
+        <item>Gas Bill</item>
+        <item>Insurance</item>
+        <item>Landline</item>
+        <item>Broadband</item>
+    </array>
+
+
+    <array name="selectArray">
+        <item>Prepaid</item>
+        <item>DTH</item>
+        <item>Data card</item>
+        <item>Postpaid</item>
+        <item>Electricity</item>
+        <item>Gas</item>
+        <item>Insurance</item>
+        <item>Landline</item>
+        <item>Broadband</item>
+    </array>
+
+
+    <array name="hintArray">
+        <item>Enter phone number</item>
+        <!-- <item>Bus \n Booking</item>
+        <item>Movie \n Ticket</item>-->
+        <item>Enter DTH id</item>
+        <item>Enter number</item>
+        <item>Enter phone number</item>
+        <item>Account number</item>
+        <item>Consumer no</item>
+        <item>Policy Number</item>
+        <item>Landline Number</item>
+        <item>Directory Number</item>
+    </array>
+    <array name="operatorArry">
+        <item>----</item>
+        <item>AirTel</item>
+        <item>Vodafone</item>
+        <item>BSNL</item>
+        <item>Jio</item>
+        <item>Idea</item>
+    </array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="termsCondition">By Signing up, you agree to Chotta Bheem\'s Terms &amp; Conditions and Privacy policy</string>
+    <string name="agreeCheckBoxStr">I Agree the Terms and Conditions</string>
+    <string name="subscriptionCheckBoxStr">I Agree to pay subscription changes of Rs.99</string>
+    <string-array name="browse_plans_key">
+        <item>SPL</item>
+        <item>DATA</item>
+        <item>FTT</item>
+        <item>TUP</item>
+        <item>RMG</item>
+    </string-array>
+
+    <string-array name="browse_plans_titles">
+        <item>Special Offers</item>
+        <item>Data Plans</item>
+        <item>Full Talk Time</item>
+        <item>Top-Up</item>
+        <item>Roaming</item>
+    </string-array>
+
+    <string name="Rs">\u20B9</string> <!--//rupee symbol:-->
+
+</resources>

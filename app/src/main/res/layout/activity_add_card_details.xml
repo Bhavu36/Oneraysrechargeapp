@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddCard">
+
+    <TextView
+        android:id="@+id/TVHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="PAYMENT DETAILS"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/sectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Card Holder's Name"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/holderName"
+        android:layout_width="334dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:maxLength="30"
+        android:background="@drawable/boxlike_effect"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/txtbankname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Bank Name"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/bankName"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:maxLength="30"
+        android:background="@drawable/boxlike_effect"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/txtcardNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Credit/Debit Card No"
+        android:textSize="22sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/cardNo"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:maxLength="16"
+        android:background="@drawable/boxlike_effect"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cardExpiry1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boxlike_effect"
+            android:gravity="center"
+            android:hint="MM"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:text="/"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/cardExpiry2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boxlike_effect"
+            android:gravity="center"
+            android:hint="YY"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <EditText
+            android:id="@+id/cardCvv"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/boxlike_effect"
+            android:gravity="center"
+            android:hint="CVV"
+            android:inputType="number"
+            android:maxLength="3" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonAddPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:text="ADD PAYMENT CARD" />
+
+</LinearLayout>

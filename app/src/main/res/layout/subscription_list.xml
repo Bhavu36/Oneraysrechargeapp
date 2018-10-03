@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TransHistory"
+    >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="List Of Subscriptions"
+            android:textSize="30dp"
+            android:id="@+id/text"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="45dp"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

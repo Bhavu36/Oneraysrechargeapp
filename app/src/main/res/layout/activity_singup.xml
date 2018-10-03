@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onerays.bhavna.oneraysrechargeapp.singup">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/wsi_registerasworker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="Register As"
+                    android:textColor="#ffffff"
+                    android:textSize="24dp" />
+
+                <Spinner
+                    android:id="@+id/wsignup_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/wsi_registerasworker" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/uplodeimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/addimage" />
+
+            <EditText
+                android:id="@+id/wsi_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="23dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/usernameicon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="  Name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+
+
+            <EditText
+                android:id="@+id/wsi_emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/emailicon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="    Enter your email Id"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+            <EditText
+                android:id="@+id/wsi_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/p"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="      Number"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+            <EditText
+                android:id="@+id/wsi_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/hom"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="    Address"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+
+            <EditText
+                android:id="@+id/wsi_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/passwordicon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="  Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+            <EditText
+                android:id="@+id/wsi_confirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/passwordicon"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="  Confirm Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffffff" />
+
+            <Button
+                android:id="@+id/wsi_save"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="18dp"
+                android:hint="Save" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

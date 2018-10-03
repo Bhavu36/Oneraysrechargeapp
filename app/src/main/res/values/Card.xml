@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Format for stroing the card details in order is:
+    Account : Considered account number as 11 digit(similar to sbi)
+    Name or Card Name (Both are considered to be similar)
+    Address
+    DOB
+    Mobile
+    Branch Code
+    Balance
+    Card Number
+    Expiry
+    CVV-->
+
+    <string-array name="card1">
+        <item>24563456456</item>
+        <item>Amit</item>
+        <item>Karanja Nagar</item>
+        <item>01/01/1995</item>
+        <item>7501546521</item>
+        <item>123456</item>
+        <item>1000</item>
+        <item>4591123443215671</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card2">
+        <item>34564567567</item>
+        <item>Pranav</item>
+        <item>Karanja Nagar</item>
+        <item>01/01/1995</item>
+        <item>8546251256</item>
+        <item>123456</item>
+        <item>1000</item>
+        <item>4591234554323452</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card3">
+        <item>95125123123</item>
+        <item>Pranit</item>
+        <item>Karanja Nagar</item>
+        <item>01/01/1995</item>
+        <item>8451364625</item>
+        <item>123456</item>
+        <item>1000</item>
+        <item>4591345665434563</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card4">
+        <item>12342345345</item>
+        <item>Akhil</item>
+        <item>Karanja Nagar</item>
+        <item>01/01/1995</item>
+        <item>8851256432</item>
+        <item>123456</item>
+        <item>1000</item>
+        <item>4591456776545674</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <string-array name="card5">
+        <item>14784789789</item>
+        <item>Jayesh</item>
+        <item>Karanja Nagar</item>
+        <item>01/01/1995</item>
+        <item>9546132465</item>
+        <item>123456</item>
+        <item>1000</item>
+        <item>4591567887656785</item>
+        <item>07/17</item>
+        <item>123</item>
+    </string-array>
+
+    <array name="cardArray">
+        <item>@array/card1</item>
+        <item>@array/card2</item>
+        <item>@array/card3</item>
+        <item>@array/card4</item>
+        <item>@array/card5</item>
+    </array>
+</resources>

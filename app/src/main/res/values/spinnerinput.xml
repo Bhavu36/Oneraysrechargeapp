@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="providers">
+        <item>Aircel</item>
+        <item>Airtel</item>
+        <item>BSNL</item>
+        <item>Tata Docomo</item>
+        <item>Idea</item>
+        <item>MTNL Delhi</item>
+        <item>Reliance GSM</item>
+        <item>Telenor</item>
+        <item>Vodafone</item>
+        <item>MTS</item>
+        <item>Virgin GSM</item>
+        <item>Virgin CDMA</item>
+        <item>T24</item>
+        <item>Jio</item>
+    </string-array>
+
+    <string-array name="dthproviders">
+        <item>TataSky</item>
+        <item>Airtel Digital</item>
+        <item>Dish TV</item>
+        <item>Big TV</item>
+        <item>Sun Direct</item>
+        <item>Videocon DTH</item>
+        <item>Dordarshan Direct Plus</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Andaman and Nicobar</item>
+        <item>Bihar</item>
+        <item>Chennai</item>
+        <item>Chhattisgarh</item>
+        <item>Delhi</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Goa</item>
+        <item>Gujurat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu Kashmir</item>
+        <item>JharKhand</item>
+        <item>Karnataka</item>
+        <item>Kerela</item>
+        <item>Kolkata</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>North East</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Puducherry</item>
+        <item>Rajashtan</item>
+        <item>Tamil Nadu</item>
+        <item>Uttar Pradesh(E)</item>
+        <item>Uttar Pradesh(W)</item>
+        <item>West Bengal</item>
+        <item>Uttaranchal</item>
+    </string-array>
+</resources>

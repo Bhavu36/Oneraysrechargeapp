@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/subsCardNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card No - "
+            android:textColor="#FFFFFF"
+            android:layout_alignParentTop="true"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/subsNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subsCardNo"
+            android:text="Subscriber No - "
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/subsType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subsNo"
+            android:text="Type - "
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/subsAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subsType"
+            android:text="Amount Paid - "
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/bankBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subsAmount"
+            android:text="Balance - "
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subsDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bankBalance"
+            android:text="Date - "
+            android:textColor="#FFFFFF"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
